@@ -56,7 +56,7 @@ footer{
 }
 .nav-left{
     justify-content: flex-start;
-    align-items: center;
+   
 }
 .fa-video, .fa-microphone{
     font-size:30px;
@@ -81,15 +81,17 @@ footer{
 .nav-left ul{
     gap: 10px;
 }
+/* nav-right */
 .nav-right{
     height: 100%;
     justify-content: flex-end;
-    align-items: flex-end;
+    
     line-height: 80px;
 }
-.nav-right .end p{
+.nav-right p{
     color:red;
-    text-align: right;
+    background-color: #4A4A4A;
+    
     line-height: 80px;
     
 }
