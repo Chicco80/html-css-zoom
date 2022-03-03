@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:centre;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 50px;
+    background-color: #0E0E0E;
+
+}
+.speaker{
+   justify-content: flex-end;
+   gap:10px;
+
+}
+header .speaker i, p{
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+main{
+    height: calc(100vh - 150px);
+    width: 100%;
+    margin-top:50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+}
